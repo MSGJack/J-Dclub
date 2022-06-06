@@ -1,0 +1,166 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    background-color: black;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    background-color: lemonchiffon;
+    color: slateblue;
+    z-index: 1;
+    position: fixed;
+    border-bottom: 5px solid orange;
+
+}
+
+header .top {
+    display: flex;
+    align-items: center;
+    padding: 0 1.2rem;
+}
+
+header .logo {
+    font-size: 2rem;
+    flex: auto;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Della Respira';
+}
+
+header .nav {
+    display: block;
+}
+
+header .nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: orange;
+}
+
+.main {
+    position: relative;
+}
+
+#mission {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.obj {
+    color: aquamarine;
+}
+
+.obj h3 {
+    font-size: 2rem;
+    font-family: 'Audiowide';
+    font-weight: bolder;
+}
+
+#mission {
+    position: relative;
+    text-align: center;
+}
+
+#games {
+    margin: auto;
+    text-align: center;
+    color: springgreen;
+}
+
+#games h3 {
+    font-weight: bolder;
+    font-size: 2.3rem;
+    font-style: italic;
+    font-family: 'Audiowide';
+    border: 8px solid rebeccapurple;
+    border-radius: 15px;
+}
+
+.core {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.list {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    border: 3px solid blue;
+    justify-content: center;
+    flex: 0 1 100px;
+    border-radius: 20px;
+}
+
+.list img {
+    width: 360px;
+    height: 300px;
+}
+
+.side {
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 0 1 50px;
+}
+
+.secondary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.secondary img {
+    width: 200px;
+    height: 200px;
+}
+
+#heroes {
+    margin: auto;
+    width: 80%;
+}
+
+.main h2 {
+    font-family: 'Audiowide';
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.eco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.eco img {
+    width: 250px;
+    height: 200px;
+}
+
+footer {
+    background-color: black;
+    color: deeppink;
+}
+
+.end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: .7rem;
+}
