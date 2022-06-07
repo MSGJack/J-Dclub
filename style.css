@@ -9,12 +9,12 @@ body {
 
 header {
     width: 100%;
-    background-color: lemonchiffon;
+    background-color: darkorange;
     color: slateblue;
     z-index: 1;
     position: fixed;
-    border-bottom: 5px solid orange;
-
+    border-bottom: 5px solid khaki;
+    text-align: center;
 }
 
 header .top {
@@ -25,7 +25,6 @@ header .top {
 
 header .logo {
     font-size: 2rem;
-    flex: auto;
     color: black;
     text-align: center;
     font-weight: bold;
@@ -39,10 +38,11 @@ header .nav {
 header .nav ul {
     display: flex;
     list-style: none;
+    justify-content: space-around;
 }
 
 .nav li {
-    padding: 10px;
+    font-style: italic;
 }
 
 .nav a {
@@ -59,6 +59,8 @@ header .nav ul {
     width: 100%;
     justify-content: flex-start;
     align-items: flex-start;
+    position: relative;
+    text-align: center;
 }
 
 .obj {
@@ -69,11 +71,6 @@ header .nav ul {
     font-size: 2rem;
     font-family: 'Audiowide';
     font-weight: bolder;
-}
-
-#mission {
-    position: relative;
-    text-align: center;
 }
 
 #games {
@@ -104,7 +101,7 @@ header .nav ul {
     border: 3px solid blue;
     justify-content: center;
     flex: 0 1 100px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .list img {
@@ -124,6 +121,7 @@ header .nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border: 5px solid palegreen;
 }
 
 .secondary img {
@@ -138,8 +136,9 @@ header .nav ul {
 
 .main h2 {
     font-family: 'Audiowide';
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bolder;
+    text-decoration: underline;
 }
 
 .eco {
@@ -163,4 +162,9 @@ footer {
     flex-wrap: wrap;
     justify-content: flex-start;
     font-size: .7rem;
+}
+
+.facebook .twitter .instagram {
+    width: 250px;
+    height: 250px;
 }
