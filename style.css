@@ -110,6 +110,11 @@ header .nav ul {
 }
 
 .side {
+    margin: auto;
+    text-align: center;
+}
+
+.other {
     display: flex;
     margin: 5px;
     flex-wrap: wrap;
@@ -158,13 +163,17 @@ footer {
 }
 
 .end {
+    font-size: .9rem;
+}
+
+#social {
     display: flex;
+    justify-content: flex-end;
+    list-style: none;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    font-size: .7rem;
 }
 
 .facebook, .twitter, .instagram {
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
 }
