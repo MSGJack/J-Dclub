@@ -164,7 +164,7 @@ footer {
     font-size: .7rem;
 }
 
-.facebook .twitter .instagram {
+.facebook, .twitter, .instagram {
     width: 250px;
     height: 250px;
 }
