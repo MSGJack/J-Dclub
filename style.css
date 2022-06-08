@@ -105,7 +105,7 @@ header .nav ul {
     display: flex;
     margin: 10px;
     flex-wrap: wrap;
-    border: 3px solid blue;
+    border: 5px solid blue;
     justify-content: center;
     flex: 0 1 100px;
     border-radius: 10px;
@@ -180,4 +180,12 @@ footer {
 .facebook, .twitter, .instagram {
     width: 100px;
     height: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: springgreen;
 }
