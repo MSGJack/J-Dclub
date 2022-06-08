@@ -56,7 +56,6 @@ header .nav ul {
 
 #mission {
     display: flex;
-    width: 100%;
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
@@ -64,16 +63,21 @@ header .nav ul {
     background-image: url(images/j&dbg2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    height: 60rem;
 }
 
 .obj {
     color: aquamarine;
+    left: 105%;
+    position: relative;
+    top: 180px;
 }
 
 .obj h3 {
     font-size: 2rem;
     font-family: 'Audiowide';
     font-weight: bolder;
+    text-decoration: underline;
 }
 
 #games {
