@@ -9,7 +9,7 @@ body {
 
 header {
     width: 100%;
-    background-color: darkorange;
+    background-color: rgb(250, 113, 0);
     color: slateblue;
     z-index: 1;
     position: fixed;
@@ -61,6 +61,9 @@ header .nav ul {
     align-items: flex-start;
     position: relative;
     text-align: center;
+    background-image: url(images/j&dbg2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .obj {
@@ -140,6 +143,7 @@ header .nav ul {
     font-size: 1.8rem;
     font-weight: bolder;
     text-decoration: underline;
+    color: springgreen;
 }
 
 .eco {
