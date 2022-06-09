@@ -13,7 +13,7 @@ header {
     color: slateblue;
     z-index: 1;
     position: fixed;
-    border-bottom: 5px solid khaki;
+    border-bottom: 10px solid khaki;
     text-align: center;
 }
 
@@ -62,14 +62,16 @@ header .nav ul {
     background-image: url(images/j&dbg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 31rem;
+    height: 59rem;
 }
 
 .obj {
     color: aquamarine;
     left: 0%;
     position: relative;
-    top: 0%;
+    top: -220px;
+    background-color: black;
+    font-size: 1.1rem;
 }
 
 .obj h3 {
@@ -133,8 +135,8 @@ header .nav ul {
 }
 
 .secondary img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
 }
 
 #heroes {
@@ -167,6 +169,7 @@ footer {
 
 .end {
     font-size: .9rem;
+    text-align: center;
 }
 
 #social {
