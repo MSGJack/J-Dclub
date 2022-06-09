@@ -56,21 +56,20 @@ header .nav ul {
 
 #mission {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    position: relative;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-image: url(images/j&dbg2.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 60rem;
+    background-size: cover;
+    height: 31rem;
 }
 
 .obj {
     color: aquamarine;
-    left: 105%;
+    left: 0%%;
     position: relative;
-    top: 180px;
+    top: 0%;
 }
 
 .obj h3 {
