@@ -131,7 +131,7 @@ header .nav ul {
 }
 
 .secondary {
-    border: 5px solid palegreen;
+    border: 5px solid blue;
 }
 
 .secondary img {
@@ -190,4 +190,14 @@ h2 {
 
 h3 {
     color: springgreen;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        color: crimson;
+    }
+
+    .list {
+        border: 7px dash blueviolet;
+    }
 }
