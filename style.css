@@ -141,6 +141,11 @@ header .nav ul {
 
 #heroes {
     margin: auto;
+    border-bottom: 5px solid wheat;
+}
+
+.leads {
+    padding: 3rem;
 }
 
 .main h2 {
