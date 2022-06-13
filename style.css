@@ -197,12 +197,20 @@ h3 {
     color: springgreen;
 }
 
-@media (max-width: 600px) {
+.list p {
+    color: lightgreen;
+}
+
+@media only screen and (max-width: 500px) {
     .footer {
         color: crimson;
     }
 
     .list {
         border: 7px dash blueviolet;
+    }
+
+    body {
+        font-size: 22px;
     }
 }
