@@ -199,6 +199,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: springgreen;
+}
+
 .secondary h2 {
     color: springgreen;
 }
@@ -221,8 +225,14 @@ h2 {
     }
 
     .nav a {
-        background-color: blueviolet;
+        background-color: black;
         border-radius: 5px;
         padding: 15px;
+        color: aliceblue;
+    }
+
+    header .nav li {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
