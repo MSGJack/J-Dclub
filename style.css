@@ -216,6 +216,7 @@ h3 {
 
     .nav {
         background-color: blueviolet;
-        border-radius: 6px;
+        border-radius: 5px;
+        padding: 15px;
     }
 }
