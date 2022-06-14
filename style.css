@@ -213,4 +213,9 @@ h3 {
     body {
         font-size: 19px;
     }
+
+    .nav {
+        background-color: blueviolet;
+        border-radius: 6px;
+    }
 }
