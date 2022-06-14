@@ -132,6 +132,12 @@ header .nav ul {
 
 .secondary {
     border: 5px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    flex: 0 1 100px;
+    border-radius: 10px;
 }
 
 .secondary img {
@@ -193,7 +199,7 @@ h2 {
     text-align: center;
 }
 
-h3 {
+.secondary h2 {
     color: springgreen;
 }
 
