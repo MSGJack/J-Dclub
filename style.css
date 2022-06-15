@@ -1,5 +1,5 @@
 html {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 body {
@@ -215,10 +215,10 @@ h3 {
 
 @media only screen and (max-width: 600px) {
     .footer {
-        background-color: skyblue;
+        color: skyblue;
     }
 
-    .list {
+    .list, .secondary {
         border: 7px solid blueviolet;
     }
 
@@ -238,4 +238,5 @@ h3 {
         justify-content: space-evenly;
         padding: 2px;
     }
+
 }
