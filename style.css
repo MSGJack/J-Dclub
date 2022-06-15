@@ -213,7 +213,7 @@ h3 {
     color: lightgreen;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
     .footer {
         background-color: skyblue;
     }
@@ -223,7 +223,7 @@ h3 {
     }
 
     body {
-        font-size: 19px;
+        font-size: 21px;
     }
 
     .nav a {
